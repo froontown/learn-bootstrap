@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Busted!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- [if lt IE 9] -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <!-- [endif] -->
+  </head>
+  <body>
+    <h1>Checking Out Broken Floating Columns</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          This is a super long column that might not load correctly in all browsers!
+        </div>
+        <div class="col-sx-6 col-sm-3">
+          Short Column, Yo.
+        </div>
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-sx-6 col-sm-3">
+          Short Column, Yo.
+        </div>
+        <div class="col-sx-6 col-sm-3">
+          Short Column, Yo.
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-push-4">
+          The first column is 8 wide, pushed over four.
+        </div>
+        <div class="col-md-4 col-md-pull-8">
+          This second column is 4 wide, pulled back eight.
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
