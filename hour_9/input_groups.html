@@ -17,6 +17,48 @@
       <h1>Input Groups Yo</h1>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="../js/bootstrap.min.js"></script>
+
+
+      <!-- This is an example that defaults to a $ amount with 2 decimal places: -->
+      <h3>Money Form</h3>
+      <p>This is an example that has a $ sign before the form field and two empty decimal points after the field:</p>
+      <form class="form-inline" action="#">
+        <div class="form-group">
+          <div class="input-group">
+            <label for="cost" class="sr-only">Amount</label>
+            <div class="input-group-addon">$</div>
+            <div>
+              <input type="number" required id="cost" placeholder="Amount" class="form-control">
+            </div>
+            <div class="input-group-addon">.00</div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default">Send Funds</button>
+      </form>
+
+      <h3>Sizing Input Groups</h3>
+
+      <p>
+        <div class="input-group input-group-lg">
+          <label for="username" class="sr-only">Username</label>
+          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+          <input type="text" required id="username" placeholder="Username" class="form-control">
+        </div>
+      </p>
+      <p>
+        <div class="input-group">
+          <label for="username" class="sr-only">Username</label>
+          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+          <input type="text" required id="username" placeholder="Username" class="form-control">
+        </div>
+      </p>
+      <p>
+        <div class="input-group input-group-sm">
+          <label for="username" class="sr-only">Username</label>
+          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+          <input type="text" required id="username" placeholder="Username" class="form-control">
+        </div>
+      </p>
     </div>
   </body>
 </html>
