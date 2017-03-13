@@ -7,3 +7,5 @@
 * Hour 4: Learned about Normalize.css
 * Hour 5: Learned about the grid system and design techniques
 * Hour 6: Labels, Badges, Panels, Wells, and ze Jumbotron!
+* Hour 7: Typography stuff
+* Hour 8: Styling Tables

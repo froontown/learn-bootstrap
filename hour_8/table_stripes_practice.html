@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taybulls</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"> <!-- I added the `../` to these URLs to make it easier to practice -->
+    <!-- [if lt IE 9] -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- [endif] -->
+
+    <style>
+      .table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #d6adfa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello, Nurse!</h1>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script> <!-- I added the `../` to these URLs to make it easier to practice -->
+
+      <table class="table table-striped">
+        <caption>Beer Info!</caption>
+        <thead>
+          <tr>
+            <th>Beer Name</th>
+            <th>Beer Type</th>
+            <th>ABV</th>
+            <th>Brewery</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="danger">
+            <td>Delirium Tremens</td>
+            <td>Golden Ale</td>
+            <td>8.5%</td>
+            <td>Huyghe Brewery</td>
+          </tr>
+          <tr>
+            <td class="success">Prohibition</td>
+            <td>American Amber Ale</td>
+            <td>6.1%</td>
+            <td>Speakeasy Ales and Lagers</td>
+          </tr>
+          <tr>
+            <td>La Fin Du Monde</td>
+            <td>Tripel</td>
+            <td>9.0%</td>
+            <td>Unibroque</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">
+              <p>These are great beers.</p>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
