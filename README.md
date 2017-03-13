@@ -9,3 +9,4 @@
 * Hour 6: Labels, Badges, Panels, Wells, and ze Jumbotron!
 * Hour 7: Typography stuff
 * Hour 8: Styling Tables
+* Hour 9: Styling Forms (jeez this chapter is eternity)
