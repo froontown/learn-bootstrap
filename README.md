@@ -10,3 +10,4 @@
 * Hour 7: Typography stuff
 * Hour 8: Styling Tables
 * Hour 9: Styling Forms (jeez this chapter is eternity)
+* Hour 10: Stuff with images, media objects, and glyphicons
