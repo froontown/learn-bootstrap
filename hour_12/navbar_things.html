@@ -18,30 +18,47 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="../js/bootstrap.min.js"></script>
 
+      <!-- This is whole navbar container thing -->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
+            <!-- Here, we're defining the collapsed state of the navbar, and what to collapse using the "data-target=#collapsedNav" id -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedNav">
               <span class="sr-only">Toggle Navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <!-- Branding stuff -->
             <a href="navbars.html" class="navbar-brand">
               <img src="../hour_10/cutesif.jpg" style="height: 100%; width: auto;" alt="Cute SIf">
             </a>
             <p class="navbar-text"><strong>Froontown</strong></p>
           </div>
 
+          <!-- This is the stuff that appears when on a large screen, but collapsed to mobile -->
           <div class="collapse navbar-collapse" id="collapsedNav">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="../hour_11/basics.html">Basics</a></li>
-                <li class="active"><a href="../hour_11/button_stats.html">Button States</a></li>
-                <li class="active"><a href="../hour_11/button_classes_sizes.html">Button Stuff</a></li>
+              <li class="active"><a href="../hour_11/basics.html">Basics</a></li>
+              <li class="active"><a href="../hour_11/button_states.html">Button States</a></li>
+              <li class="active"><a href="../hour_11/button_classes_sizes.html">Button Stuff</a></li>
+
+            <!-- Links and buttons below -->
+              <p class="navbar-text">I love <a href="http://darksouls.wiki.fextralife.com/Dark+Souls+Wiki">Dark Souls</a>!</p>
+              <a href="http://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" class="btn btn-default navbar-btn navbar-right">Dark Souls</a> <!-- This button actually redirects -->
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  Dropdown stuff
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="standard_navs.html">Standard Navs</a></li>
+                  <li><a href="dropdowns.html">Dropdowns</a></li>
+                  <li><a href="../hour_10/katraven.jpg">Kat and Raven</a></li>
+                </ul>
+              </li>
             </ul>
-            <p class="navbar-text">I love <a href="http://darksouls.wiki.fextralife.com/Dark+Souls+Wiki">Dark Souls</a>!</p>
-            <button type="button" class="btn btn-default navbar-btn">Busted Button</button>
-            <a href="http://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" class="btn btn-default">Dark Souls</a> <!-- This button actually redirects -->
           </div>
         </div>
       </nav>
